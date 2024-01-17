@@ -1012,6 +1012,7 @@ main {
 .project-title,
 .project-category { margin-left: 10px; }
 .project-description { margin-left: 15px; }
+.project-link { margin-left: 15px; }
 
 .project-title {
   color: var(--white-2);
@@ -1026,12 +1027,18 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
+
 .project-description {
   color: var(--light-gray);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
 }
 
+.project-link {
+  color: var(--bittersweet-shimmer);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+}
 
 
 
